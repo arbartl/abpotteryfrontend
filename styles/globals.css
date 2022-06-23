@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background: url("https://res.cloudinary.com/abpottery/image/upload/c_scale,o_50,w_883/v1655771909/seemless_speckle_pattern_ypwifp.png")
+    repeat;
+  margin: 0rem 5%;
+  --primary: #2d2d2d;
+  --secondary: #535353;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+h3 {
+  font-size: 1rem;
+  color: var(--secondary);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 150%;
+}
